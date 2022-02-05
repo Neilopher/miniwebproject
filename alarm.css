@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+    border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: green;
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+  color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:lightgreen;
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:red;
+    margin-top:10px;
+}
+
+.btns-container {
+    margin-top: 70px;
+    margin: 40px 0;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    filter: grayscale(0.5);
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  #home-button {
+    background: rgb(199, 45, 6);
+    position: relative;
+    margin-top: 125px;
+    margin-left: 125px;
+  }
+
+
+}
+
+
+

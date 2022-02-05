@@ -1,0 +1,62 @@
+body {
+    background: rgba(39, 34, 34, 0.986);
+  }
+  
+  h1{
+    color: cyan;
+    text-align: center;
+  }
+  h3{
+    margin-top: 350px;
+    text-align: center;
+    font-size: large;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+.white {
+    position: relative;
+    background: rgb(241, 240, 240);
+    width: 10%;
+    height: 400px;
+    margin: 0 2px;
+  }
+  
+  .white.black:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: rgb(17, 11, 11);
+    right: -25%;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+  }
+  .btns-container {
+    margin-top: 70px;
+    margin: 40px 0;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    filter: grayscale(0.5);
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  #home-button {
+    background: rgb(199, 45, 6);
+    position: relative;
+    margin-top: 30px;
+    margin-left: 500px;
+  }

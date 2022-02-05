@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIANO</title>
+    <link rel="stylesheet" href="pianostyle.css">
+    
+</head>
+<body>
+    <h1>PIANO</h1>
+    <div class="container">
+    <!-- white and black keys -->
+    <div data-note="c" class="key white black" ><h3>C</h3></div>
+    <div data-note="d" class="key white black" ><h3>D</h3></div>
+    <!-- white keys -->
+    <div data-note="e" class="key white" ><h3>E</h3></div>
+     <!-- white and black keys -->
+    <div data-note="f" class="key white black" ><h3>F</h3></div>
+    <div data-note="g" class="key white black" ><h3>G</h3></div>
+    <div data-note="a" class="key white black" ><h3>A</h3></div>
+    <!-- white keys -->
+    <div data-note="b" class="key white" ><h3>B</h3></div>
+     <!-- white and black keys -->
+    <div data-note="c4" class="key white black" ><h3>C</h3></div>
+    <div data-note="d4" class="key white black" ><h3>D</h3></div>
+    <!-- white keys -->
+    <div data-note="e4" class="key white" ><h3>E</h3></div>
+   </div>  
+    <!-- Audio files -->
+   <audio id="c" src="notes/c3.mp3.mp3"></audio>
+   <audio id="d" src="notes/D3.mp3.mp3"></audio>
+   <audio id="e" src="notes/E3.mp3.mp3"></audio>
+   <audio id="f" src="notes/F3.mp3.mp3"></audio>
+   <audio id="g" src="notes/G3.mp3.mp3"></audio>
+   <audio id="a" src="notes/A3.mp3.mp3"></audio>
+   <audio id="b" src="notes/B3.mp3.mp3"></audio>
+   <audio id="c4" src="notes/c4.mp3.mp3"></audio>
+   <audio id="d4" src="notes/D4.mp3.mp3"></audio>
+   <audio id="e4" src="notes/E4.mp3.mp3"></audio>
+   <script src="pianojv.js"></script>
+   <div class="container">
+    <form action="index.html">
+        <button id="home-button" onclick="home()">HOME</button>
+</form>
+</div>
+</body>
+</html>
